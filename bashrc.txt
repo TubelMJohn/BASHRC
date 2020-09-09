@@ -122,10 +122,12 @@ alias cls="clear"
 alias gl="sudo git log --all --decorate --oneline --graph"
 alias gss="sudo git status"
 alias ga="sudo git add . && sudo git status"
-alias gc="sudo git commit"
 alias gpl="sudo git pull && sudo git status"
 alias gph="sudo git push && sudo git status"
 alias gb="sudo git branch -a"
+alias upd="sudo apt-get update -y"
+alias upg="sudo apt-get upgrade -y"
+alias upk="sudo apt-get dist-upgrade -y"
 
 # Look for global definitions
 if [ -f /etc/bashrc ]; then
@@ -1163,3 +1165,5 @@ if [ "$enable_programmable_completion" == true ] ; then
 fi
 
 PATH=$PATH:$HOME/.local/bin # Add custom bins to PATH
+# This is a comment.
+##############################################################################
