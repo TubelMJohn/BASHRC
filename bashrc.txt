@@ -1,5 +1,5 @@
 ##############################################################################
-#                         Codefined's ~/.bashrc File                         #
+#                     VolitionalGod's ~/.bashrc File                         #
 ##############################################################################
 
 # A compiled list of commands to aid with everyday usage of bash.  Borrowed
@@ -130,6 +130,10 @@ alias upg="sudo apt-get upgrade -y"
 alias upk="sudo apt-get dist-upgrade -y"
 alias md='sudo xinput set-prop 11 "Device Enabled" 0 && sudo xinput --set-button-map 12 1 0 3 0 0 0 0 0 0 0 0 0'
 alias gcs="sudo git config --global credential.helper store"
+
+# No password sudo.
+# sudo vim /etc/sudoers
+# $USER ALL = (ALL) NOPASSWD:ALL
 
 # Look for global definitions
 if [ -f /etc/bashrc ]; then
