@@ -1184,4 +1184,4 @@ PATH=$PATH:$HOME/.local/bin # Add custom bins to PATH
 # This is a comment.
 ##############################################################################
 
-PS1+="\$(parse_git_branch)\[\033[00m\] $ "
+PS1+="\e[40;4;31m\$(parse_git_branch)\[\033[00m\] $ "
