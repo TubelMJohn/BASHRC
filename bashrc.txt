@@ -133,6 +133,9 @@ alias gcs="sudo git config --global credential.helper store"
 alias rr="cd ~/Desktop/AWSLightsail && ssh -i LightsailDefaultKey-ap-south-1.pem bitnami@15.206.245.228"
 alias vg="cd ~/Desktop/AWSLightsail && ssh -i LightsailDefaultKey-ap-south-1.pem ubuntu@15.207.25.248"
 alias q="exit"
+alias tor="cd ~/tor-browser_en-US/ && ./start-tor-browser.desktop"
+alias sbrc="source ~/.bashrc"
+alias brc="sudo vim ~/.bashrc"
 
 # GIT commit funcion.
 
@@ -1184,4 +1187,4 @@ PATH=$PATH:$HOME/.local/bin # Add custom bins to PATH
 # This is a comment.
 ##############################################################################
 
-PS1+="\e[40;4;31m\$(parse_git_branch)\[\033[00m\] $ "
+# PS1+="\e[40;4;31m\$(parse_git_branch)\[\033[00m\] $ "
