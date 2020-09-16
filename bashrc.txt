@@ -136,6 +136,9 @@ alias q="exit"
 alias tor="cd ~/tor-browser_en-US/ && ./start-tor-browser.desktop"
 alias sbrc="source ~/.bashrc"
 alias brc="sudo vim ~/.bashrc"
+alias sqlup="sudo systemctl restart mysql.service"
+alias rst="sudo shutdown -r now"
+alias sht="sudo shutdown now"
 
 # GIT commit funcion.
 
