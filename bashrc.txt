@@ -139,6 +139,7 @@ alias brc="sudo vim ~/.bashrc"
 alias sqlup="sudo systemctl restart mysql.service"
 alias rst="sudo shutdown -r now"
 alias sht="sudo shutdown now"
+alias rmv="sudo rm -rf"
 
 # GIT commit funcion.
 
