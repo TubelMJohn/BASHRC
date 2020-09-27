@@ -40,7 +40,7 @@ parse_git_branch() {
 }
 export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 
-# Display file content with line number
+# Display file content with line number.
 
 disp() {
 
@@ -50,7 +50,7 @@ while read LINE
 do
 echo "${LINE_NUM}: ${LINE}"
 ((LINE_NUM++))
-done < ${TPWD}/$1
+done < $1
 
 }
 
