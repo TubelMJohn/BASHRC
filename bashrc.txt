@@ -54,6 +54,17 @@ done < $1
 
 }
 
+# Move to ~/Desktop/Trash
+
+del() {
+	
+for FILE in $@
+do
+sudo mv ${FILE} ~/Desktop/Trash/
+done
+
+}
+
 # No password sudo.
 # sudo vim /etc/sudoers
 # $USER ALL = (ALL) NOPASSWD:ALL
