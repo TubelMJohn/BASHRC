@@ -26,6 +26,8 @@ alias rst="sudo shutdown -r now"
 alias sht="sudo shutdown now"
 alias rmv="sudo rm -rf"
 alias bin="cd ~/Desktop/Trash"
+alias cfa="cd ~/NetBeansProjects/gitRepos/cfaLms"
+alias eod="cd ~/Documents/EOD"
 
 # GIT commit funcion.
 
