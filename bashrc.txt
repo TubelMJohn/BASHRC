@@ -29,6 +29,9 @@ alias bin="cls && cd ~/Desktop/Trash && ls"
 alias cfa="cls && cd ~/NetBeansProjects/gitRepos/cfaLms && ls"
 alias eod="cls && cd ~/Documents/EOD && ls"
 alias shome="cls && cd /usr/local/bin && ls"
+alias l="cls && todo -g"
+alias a="cls && todo -a"
+alias r="cls && todo -r" 
 
 # GIT commit funcion.
 
