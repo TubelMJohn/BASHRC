@@ -31,7 +31,8 @@ alias eod="cls && cd ~/Documents/EOD && ls"
 alias shome="cls && cd /usr/local/bin && ls"
 alias l="cls && todo -g"
 alias a="cls && todo -a"
-alias r="cls && todo -r" 
+alias r="cls && todo -r"
+alias pad="cls && cd ~/Documents/ScratchPad && ls"
 
 # GIT commit funcion.
 
