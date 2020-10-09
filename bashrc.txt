@@ -41,6 +41,17 @@ gcm()
 	sudo git commit -m $1
 }
 
+# Move to and cd into destination function.
+
+mvp()
+{
+	cls
+	mv $1 $2
+	cd $2
+	ls
+}
+
+
 #GIT_BRANCH_FUNCTION
 
 parse_git_branch() {
