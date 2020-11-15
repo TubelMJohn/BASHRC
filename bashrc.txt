@@ -33,6 +33,7 @@ alias l="cls && todo -g"
 alias a="cls && todo -a"
 alias r="cls && todo -r"
 alias pad="cls && cd ~/Documents/ScratchPad && ls"
+alias libre="cls && cd /opt/libreoffice6.2/program && soffice"
 
 # GIT commit funcion.
 
@@ -139,3 +140,4 @@ export HISTTIMEFORMAT="[%Y-%m-%d %T] "
 export HISTIGNORE="&:ls:[bf]g:exit"
 
 PATH=$PATH:/home/tubel/bin/
+source /etc/profile.d/bash_completion.sh
